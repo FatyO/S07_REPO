@@ -53,10 +53,7 @@ class App {
                 width: this.canvas.width,
                 height: this.canvas.height,
             }
-        });
-
-        Matter.Render.run(this.render);
-
+        });  
         this.runner = Matter.Runner.create();
         Matter.Runner.run(this.runner, this.engine);
     }
