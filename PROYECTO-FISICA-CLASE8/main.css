@@ -1,43 +1,33 @@
-body {
-    background-color: #000;
-    color: white;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#lienzo {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    border: 2px solid red;
-    box-sizing: border-box;
-}
-
-* {
+/* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-canvas {
-    display: block;
-    border: 1px solid black; /* Borde negro alrededor del canvas */
+body {
+    background: black;
 }
 
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 90vh;
+    border: 2px solid white;
+}
 
-
-
-
-
-
-
-
+.ball {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: white;
+    left: 50%; /* Añadido el punto y coma *
+    top: 50%;
+    border-radius: 50%;
+}
+/*
 
 
 
